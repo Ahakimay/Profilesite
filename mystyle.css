@@ -1,0 +1,169 @@
+/* This is my main css file*/
+header {
+    font: bold sans-serif, Arial, Helvetica;
+    font-size: 34px;
+    color:blue;
+    text-align: center;
+    display: flex;
+}
+.jumbotron {
+    background-color:lightslategray;
+}
+.container {
+    justify-content: center;
+}
+.body {
+    background-color:darkblue;
+    
+   
+}
+.body-contact {
+    background-color:lightblue;
+    background-size: 200px;
+    background-image:url("https://images.unsplash.com/photo-1483232539664-d89822fb5d3e");
+}
+.nav-item {
+    padding-left:10px;
+    padding-right: 10px;
+}
+#imgBackground {
+    /* width: inherent;*/
+    background-image: url('images/website background.jpg');
+    background-repeat: no repeat;
+    background-size: cover;
+}
+ul {
+    margin: 10px;
+    padding: 10px;
+}
+/* change the link color on hover*/
+li a:hover {
+    background-color: transparent;
+    color: white;
+    background-color:#dddddd;
+    padding: 8px;
+    display:inline;
+}
+.highlight {
+    background-color: teal;
+    font-family: sans-serif;
+    font-size-adjust: 5px;
+    display: inline;
+ }
+p, li {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+p {
+    font-weight: bold;
+}
+table,
+td {
+    border: 2px solid black;
+    background-color: gold;
+    border-color:rgb(49, 0, 139);
+    padding: 20px;
+    margin: auto;
+}
+.form {
+    background-color: rgb(173, 196, 230);
+    justify-content: center;
+    display:flex;
+    position:center;
+    color:darkblue;
+}
+.contact-info {
+    position: center;
+    background-color:lightsteelblue;
+    color: darkblue;
+ } 
+ pre {
+     font-size: 60px;
+     font-weight:bold;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: lightgreen;
+     font-style: italic;
+     padding-bottom: 10px;
+}
+div.one {
+    border-style: dotted;
+    border-radius: 30px;
+    background-color: lightseagreen;
+    border-color:yellowgreen;
+    padding: 20px;
+    margin: auto;
+    width: fit-content;
+    display: static;
+}
+div.two {
+    border-style: dashed;
+    border-top-width: small;
+    border-right-width: small;
+    border-bottom-width:small;
+    border-left-width: small;
+    background-color: lawngreen;
+    border-color:red;
+    padding: 30px 30px 30px 30px;
+    margin: 40px;
+    width:fit-content;
+    display: static;
+    display: static;
+    margin: auto;
+}
+div.three {
+    border-style: ridge;
+    border-width: 5px;
+    background-color: lightseagreen;
+    border-color: violet;
+    padding: 20px;
+    margin: auto;
+    width: fit-content;
+
+}
+.profile1 {
+    border-style: ridge;
+    border-width: 5px;
+    background-color: lightseagreen;
+    border-color: violet;
+    padding: 20px;
+    margin: 600px;
+    width: fit-content;
+}
+.profile2 {
+    border-style: dashed;
+    border-width: 5px;
+    background-color: lightseagreen;
+    border-color: rgb(49, 0, 139);
+    padding: 20px;
+    margin: 600px;
+    width: fit-content;
+}
+.profile3 {
+    border-style: groove;
+    border-width: 5px;
+    background-color: lightseagreen;
+    border-color: gold;
+    padding: 20px;
+    margin: 600px;
+    width: fit-content;
+}
+.profile4 {
+    border-style: inset;
+    border-width: 5px;
+    background-color: lightseagreen;
+    border-color: red;
+    padding: 20px;
+    margin: 600px;
+    width: fit-content;
+} 
+.profile5 {
+    border-style: solid;
+    border-width: 5px;
+    background-color: lightseagreen;
+    border-color: black;
+    padding: 20px;
+    margin: 600px;
+    width: fit-content;
+}
+.resume {
+    justify-content: center;
+}
